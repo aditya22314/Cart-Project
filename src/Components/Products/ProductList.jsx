@@ -24,13 +24,12 @@ const ProductList = () => {
   ,[category,page]) 
   console.log(data,"HI")
   const skeletons =[1,2,3,4,5,6,7,8]  
-  const handlePageChange = () => {
-    // Parse the current page as an integer with a default value of 1
-    const currentPage = parseInt(page, 10) || 1; // Change this line
-  
-    // Update the URL with the new page value
-    setSearch({ ...Object.fromEntries([...search]), page: currentPage + 1 });
-  };
+
+  const handlePageChange = (page) =>{  
+    const currentParams=Object.fromEntries([...search]) // Makes a new array and publish the changes 
+    console.log(currentParams,"Yo")
+    setSearch({...currentParams,page:parseInt(currentParams.page)+1})
+  } 
   useEffect(()=>{ 
     const handleScroll = () =>{
       const {scrollTop,clientHeight,scrollHeight} = document.documentElement; 
