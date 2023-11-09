@@ -1,0 +1,26 @@
+.sidebar_icon{
+    
+    width: 20px; 
+   
+} 
+a{
+    margin-right: 1px;
+}
+.jy{
+    margin-right: 20px;
+} 
+.sidebar_link{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    font-size: 21px;
+    padding: 10px 15px;
+    border-radius: 5px;
+} 
+.sidebar_link:hover{
+    background-color: #f6f6f6;
+} 
+.sidebar_link img {
+    width: 30px;
+    margin-left: 0px;
+    margin-right: 8px;
+}

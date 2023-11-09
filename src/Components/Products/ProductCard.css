@@ -1,0 +1,71 @@
+.product_card{
+    width: 275px;
+    height:360px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    background-color: #fff;
+} 
+.product_img{
+    height: 200px; 
+    width: 230px; 
+    margin-right: 10px;
+}
+.product_image{
+    height: 210px;
+
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+} 
+
+.basket_boy{
+    height: 40px;
+    width: 40px;
+} 
+.product_details{
+    padding: 10px 20px;
+} 
+.product_price{
+    font-size: 21px;
+    font-weight: 700;
+}
+.product_title{
+    font-size: 18px;
+    margin-top: 4px;
+} 
+.product_info{
+    justify-content: space-between; 
+    margin: 10px 0px; 
+    margin-bottom: 15px;
+} 
+.product_rating{
+    height: 30px;
+    padding: 4px 4px;
+    font-weight: 600; 
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #fca311; 
+    color: white;
+} 
+
+.product_rating img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.product_review_count{
+    font-size: 16px; 
+    margin-left: 10px;
+    color: grey;
+    padding:0 10px; 
+    border-left: 2px solid #dcdcdc;
+} 
+
+.add_to_cart{
+    margin-right: 10px; 
+    background: transparent; 
+    border:none; 
+    border-radius: 100%;
+} 
+
