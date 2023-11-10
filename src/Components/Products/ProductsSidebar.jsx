@@ -1,7 +1,8 @@
 import React, {  } from 'react'
 import './ProductsSidebar.css' 
 import LinkwithAnchor from '../LinkedComponent/LinkwithAnchor'
-import useData from '../Hooks/useData'
+import useData from '../Hooks/useData' 
+
 
 const ProductsSidebar = () => { 
   const {data:cat,err} =useData('/category')
